@@ -50,7 +50,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
               I m a Web-developer with 1 year of experience. Who intresting to
-              help you improve your dreams and ideas on code.
+              help improve your dreams and ideas on code.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -65,10 +65,10 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-purple dark:text-pink">
+            <h3 className=" text-center text-3xl py-1 text-purple dark:text-pink">
               Services I offer
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+            <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beggining of my journey as a frontend developer, I have
               done projects for
               <span className=" text-pink dark:text-cyan"> hackaton </span>
@@ -120,14 +120,14 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-purple dark:text-pink">
+            <h3 className="text-center text-3xl py-1 text-purple dark:text-pink">
               Portfolio
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beggining of my journey as a frontend devloper, I have
-              done projects for
+            <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
+              Since the beggining of my journey as a frontend developer, I have
+              done a few projects for
               <span className=" text-pink dark:text-cyan"> hackaton </span>
-              or for myself{" "}
+              and for myself{" "}
               <span className=" text-pink dark:text-cyan">projects </span>
               that I have done just for fun.
             </p>
