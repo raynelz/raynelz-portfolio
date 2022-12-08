@@ -1,9 +1,9 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillGithub,
-  AiFillLinkedin,
 } from "react-icons/ai";
+import {FaTelegram, FaReact} from "react-icons/fa";
+import {SlSocialVkontakte} from "react-icons/sl";
 import Image from "next/legacy/image";
 import avatar from "../public/avatar.png";
 import design from "../public/design.png";
@@ -11,10 +11,18 @@ import code from "../public/code.png";
 import web1 from "../public/web 1.png";
 import web2 from "../public/web 2.png";
 
+
 export default function Home() {
   // function which will be called when user clicks on github icon
   const githubClick = () => {
     window.open("https://github.com/zaharichswiftly");
+  };
+
+  const tgClick = () => {
+    window.open("https://t.me/devraynelz");
+  };
+  const vkClick = () => {
+    window.open("https://vk.com/raynelz");
   };
   return (
     <div>
@@ -33,8 +41,8 @@ export default function Home() {
             <ul className="flex items.centre">
               <li>
                 <a
-                  className="bg-gradient-to-r from-purple to-pink text-black px-4 py-2 rounded-md ml-8 dark:text-white"
-                  href="#"
+                  className="bg-gradient-to-r from-purple600 to-pink600 text-white px-4 py-2 rounded-md ml-8 dark:text-white"
+                  href="./resume"
                 >
                   Resume
                 </a>
@@ -42,51 +50,51 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-purple font-medium md:text-6xl">
+            <h2 className="text-5xl py-2 font-inter text-purple600 font-lg md:text-6xl">
               Zakhar Litvinchuk
             </h2>
             <h3 className="text-2xl py-2 dark:text-pink md:text-3xl">
-              React Developer.
+              React Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
-              I m a Web-developer with 1 year of experience. Who intresting to
-              help improve your dreams and ideas on code.
+              I&apos;m a Web-developer with 1 year of experience. My aim
+              is to bring your ideas to life with code.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillTwitterCircle />
+            <FaTelegram onClick={tgClick} />
             <AiFillGithub onClick={githubClick} />
-            <AiFillLinkedin />
+            <SlSocialVkontakte onClick={vkClick} />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-purple rounded-full w-80 h-80 mtt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-purple600 dark: from-purple rounded-full w-80 h-80 mtt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={avatar} alt="avatar" layout="fill" objectFit="cover" />
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className=" text-center text-3xl py-1 text-purple dark:text-pink">
-              Services I offer
+            <h3 className=" text-center text-3xl py-1 text-purple600 dark:text-pink">
+              My skills and experience
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beggining of my journey as a frontend developer, I have
-              done projects for
-              <span className=" text-pink dark:text-cyan"> hackaton </span>
-              or for myself{" "}
-              <span className=" text-pink dark:text-cyan">projects </span>
-              that I have done just for fun.
+              participated in
+              <span className=" text-pink600 dark:text-cyan"> hackatons </span>
+              and made 
+              <span className=" text-pink600 dark:text-cyan"> projects </span>
+              of my own, just for fun.
             </p>
           </div>
           <div className="lg: flex gap-5 justify-center">
             <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={design} alt="design" width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  text-purple">
+              <h3 className="text-lg font-medium pt-8 pb-2  text-purple600 dark: text-purple">
                 Beatiful Websites
               </h3>
               <p className="py-2 text-black dark:text-white">
-                Design elegant and minimalistic websites for your needs.
+                I design elegant and minimalistic websites to fit your needs.
               </p>
-              <h4 className="py-4 text-pink">Design tools I use</h4>
+              <h4 className="py-4 text-pink600 dark:text-pink">Design tools I use</h4>
               <p className="text-black dark:text-cyan" py-1>
                 Figma
               </p>
@@ -105,13 +113,13 @@ export default function Home() {
                 height={100}
                 className="content-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-purple">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-purple600 dark: text-purple">
                 Code your dream projects
               </h3>
               <p className="py-2 text-black dark:text-white">
                 Code elegant and minimalistic websites for your needs.
               </p>
-              <h4 className="py-4 text-pink">Code tools I use</h4>
+              <h4 className="py-4 text-pink600 dark:text-pink">Code tools I use</h4>
               <p className=" text-black dark:text-cyan py-1">React</p>
               <p className=" text-black dark:text-cyan py-1">NextJS</p>
               <p className=" text-black dark:text-cyan py-1">Tailwind</p>
@@ -120,16 +128,16 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-center text-3xl py-1 text-purple dark:text-pink">
+            <h3 className="text-center text-3xl py-1 text-purple600 dark:text-pink">
               Portfolio
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beggining of my journey as a frontend developer, I have
-              done a few projects for
-              <span className=" text-pink dark:text-cyan"> hackaton </span>
-              and for myself{" "}
-              <span className=" text-pink dark:text-cyan">projects </span>
-              that I have done just for fun.
+              participated in
+              <span className=" text-pink600 dark:text-cyan"> hackatons </span>
+              and made 
+              <span className=" text-pink600 dark:text-cyan"> projects </span>
+              of my own, just for fun.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -143,7 +151,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/2 flex-1">
+            <div className="basis-1/2 flex-1 border-2 border-purple600 rounded-lg dark:border-0" >
               <Image
                 src={web2}
                 alt="web2"
