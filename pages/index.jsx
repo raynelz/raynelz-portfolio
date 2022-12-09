@@ -67,7 +67,7 @@ export default function Home() {
               is to bring your ideas to life with code.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600">
             <FaTelegram onClick={tgClick} />
             <AiFillGithub onClick={githubClick} />
             <SlSocialVkontakte onClick={vkClick} />
@@ -79,7 +79,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=" text-center text-3xl py-1 text-purple600 dark:text-pink">
+            <h3 className=" text-center text-3xl py-5 text-purple600 dark:text-pink">
               My skills and experience
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
