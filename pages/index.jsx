@@ -50,10 +50,10 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r py-2 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
+            <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-2 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
               Zakhar
             </h2>
-            <h2 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r py-1 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
+            <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-1 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
               Litvinchuk
             </h2>
             <div className="flex flex-wrap justify-center py-3 space-x-2"> 
