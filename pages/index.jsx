@@ -50,12 +50,18 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 font-inter text-purple600 font-lg md:text-6xl">
-              Zakhar Litvinchuk
+            <h2 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r py-2 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
+              Zakhar
             </h2>
-            <h3 className="text-2xl py-2 dark:text-pink md:text-3xl">
+            <h2 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r py-1 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
+              Litvinchuk
+            </h2>
+            <div className="flex flex-wrap justify-center py-3 space-x-2"> 
+            <FaReact className="text-5xl fill-blue-600" title="React Developer"/>
+            <h3 className="relative left-0 top-0 text-2xl py-2 dark:text-purple md:text-3xl">
               React Developer
             </h3>
+            </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
               I&apos;m a Web-developer with 1 year of experience. My aim
               is to bring your ideas to life with code.
