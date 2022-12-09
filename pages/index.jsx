@@ -1,16 +1,13 @@
 import Head from "next/head";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import {FaTelegram, FaReact} from "react-icons/fa";
-import {SlSocialVkontakte} from "react-icons/sl";
+import { AiFillGithub } from "react-icons/ai";
+import { FaTelegram, FaReact } from "react-icons/fa";
+import { SlSocialVkontakte } from "react-icons/sl";
 import Image from "next/legacy/image";
 import avatar from "../public/avatar.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import web1 from "../public/web 1.png";
 import web2 from "../public/web 2.png";
-
 
 export default function Home() {
   // function which will be called when user clicks on github icon
@@ -56,15 +53,18 @@ export default function Home() {
             <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-1 font-inter  from-purple600 to-pink font-lg md:text-8xl font-md">
               Litvinchuk
             </h2>
-            <div className="flex flex-wrap justify-center py-3 space-x-2"> 
-            <FaReact className="text-5xl fill-blue-600" title="React Developer"/>
-            <h3 className="relative left-0 top-0 text-2xl py-2 dark:text-purple md:text-3xl">
-              React Developer
-            </h3>
+            <div className="flex flex-wrap justify-center py-3 space-x-2">
+              <FaReact
+                className="text-5xl fill-blue-600"
+                title="React Developer"
+              />
+              <h3 className="relative left-0 top-0 text-2xl py-2 dark:text-purple md:text-3xl">
+                React Developer
+              </h3>
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
-              I&apos;m a Web-developer with 1 year of experience. My aim
-              is to bring your ideas to life with code.
+              I&apos;m a Web-developer with 1 year of experience. My aim is to
+              bring your ideas to life with code.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600">
@@ -86,7 +86,7 @@ export default function Home() {
               Since the beggining of my journey as a frontend developer, I have
               participated in
               <span className=" text-pink600 dark:text-cyan"> hackatons </span>
-              and made 
+              and made
               <span className=" text-pink600 dark:text-cyan"> projects </span>
               of my own, just for fun.
             </p>
@@ -100,7 +100,9 @@ export default function Home() {
               <p className="py-2 text-black dark:text-white">
                 I design elegant and minimalistic websites to fit your needs.
               </p>
-              <h4 className="py-4 text-pink600 dark:text-pink">Design tools I use</h4>
+              <h4 className="py-4 text-pink600 dark:text-pink">
+                Design tools I use
+              </h4>
               <p className="text-black dark:text-cyan" py-1>
                 Figma
               </p>
@@ -125,7 +127,9 @@ export default function Home() {
               <p className="py-2 text-black dark:text-white">
                 Code elegant and minimalistic websites for your needs.
               </p>
-              <h4 className="py-4 text-pink600 dark:text-pink">Code tools I use</h4>
+              <h4 className="py-4 text-pink600 dark:text-pink">
+                Code tools I use
+              </h4>
               <p className=" text-black dark:text-cyan py-1">React</p>
               <p className=" text-black dark:text-cyan py-1">NextJS</p>
               <p className=" text-black dark:text-cyan py-1">Tailwind</p>
@@ -141,7 +145,7 @@ export default function Home() {
               Since the beggining of my journey as a frontend developer, I have
               participated in
               <span className=" text-pink600 dark:text-cyan"> hackatons </span>
-              and made 
+              and made
               <span className=" text-pink600 dark:text-cyan"> projects </span>
               of my own, just for fun.
             </p>
@@ -157,7 +161,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/2 flex-1 border-2 border-purple600 rounded-lg dark:border-0" >
+            <div className="basis-1/2 flex-1 border-2 border-purple600 rounded-lg dark:border-0">
               <Image
                 src={web2}
                 alt="web2"
