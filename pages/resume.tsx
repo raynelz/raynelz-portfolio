@@ -1,4 +1,3 @@
-//function of resume page
 import React from "react";
 import Head from "next/head";
 export default function Resume() {
@@ -19,7 +18,7 @@ export default function Resume() {
                 <li>
                   <a
                     className="bg-gradient-to-r from-purple600 to-pink600 text-white px-4 py-2 rounded-md ml-8 dark:text-white"
-                    href="pages/index"
+                    href="https://zaharichswiftly-github-io.vercel.app/"
                   >
                     Go back
                   </a>

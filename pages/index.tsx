@@ -8,6 +8,7 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import web1 from "../public/web 1.png";
 import web2 from "../public/web 2.png";
+import { CSSProperties } from '../node_modules/@types/react/index.d';
 
 export default function Home() {
   // function which will be called when user clicks on github icon
@@ -117,8 +118,7 @@ export default function Home() {
               <Image
                 src={code}
                 alt="code"
-                width={100}
-                height={100}
+                style={{ width: 100, height: 100 }}
                 className="content-center"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-purple600 dark: text-purple">
@@ -156,8 +156,7 @@ export default function Home() {
                 src={web1}
                 alt="web1"
                 className="rounded-lg object-cover shadow-lg"
-                width={"100%"}
-                height={"100%"}
+                style={{ width: "100%", height: "100%" }}
                 layout="responsive"
               />
             </div>
@@ -166,8 +165,7 @@ export default function Home() {
                 src={web2}
                 alt="web2"
                 className="rounded-lg object-cover shadow-lg"
-                width={"100%"}
-                height={"100%"}
+                style={{ width: "100%", height: "100%" }}
                 layout="responsive"
               />
             </div>
