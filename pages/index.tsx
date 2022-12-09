@@ -118,7 +118,8 @@ export default function Home() {
               <Image
                 src={code}
                 alt="code"
-                style={{ width: 100, height: 100 }}
+                width={100}
+                height={100}
                 className="content-center"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-purple600 dark: text-purple">
