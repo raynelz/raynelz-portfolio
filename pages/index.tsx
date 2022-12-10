@@ -8,7 +8,6 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import web1 from "../public/web 1.png";
 import web2 from "../public/web 2.png";
-import { CSSProperties } from '../node_modules/@types/react/index.d';
 
 export default function Home() {
   // function which will be called when user clicks on github icon

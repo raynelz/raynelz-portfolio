@@ -1,5 +1,7 @@
-import React from "react";
 import Head from "next/head";
+import Image  from 'next/legacy/image';
+import ava from '../public/ava.jpg';
+import illust from '../public/illust.png'
 export default function Resume() {
     return (
     <div>
@@ -25,6 +27,28 @@ export default function Resume() {
                 </li>
               </ul>
             </nav>
+            <div className="flex justify-center text-center py-10">
+            <h1 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-pink600 text-6xl font-inter">
+              About me:
+            </h1>
+          </div>
+          <div className="relative mx-auto rounded-full w-60 h-60 mtt-20 overflow-hidden md:h-30 md:w-30">
+            <Image src={ava} alt="avatar 2" layout="fill" objectFit="cover"/>
+          </div>
+          <div className="flex justify-center text-center py-10">
+            <h2 className="font-bold font-montserrat text-3xl text-black dark:text-white">
+              Hello!
+            </h2>
+          </div>
+          <div className="flex justify-center text-center">
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
+              I&apos;m a Web-developer with 1 year of experience. My aim is to
+              bring your ideas to life with code.
+            </p>
+          </div>
+          <div className="relative mx-auto rounded-full w-60 h-60 mtt-20 overflow-hidden md:h-30 md:w-30">
+            <Image src={illust} alt="illust"/>
+          </div>
           </section>
       </main>
     </div>
