@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         pink: "#ff79c6",
         pink600: "#FE32A6",
         purple: "#bd93f9",
@@ -17,11 +17,9 @@ module.exports = {
         blacky: "#213547",
       },
       fontFamily: {
-        burtons: "burtons",
-        inter: 'Inter',
-        montserrat: "montserrat",
+        sans: ["Montserrat", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
+};
