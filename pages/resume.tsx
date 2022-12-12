@@ -13,22 +13,22 @@ export default function Resume() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
           <section className="min-h-screen">
             <nav className="py-10 mb-12 flex justify-between">
-              <h1 className="text-xl font-montserrat dark:text-white">
+              <h1 className="text-xl Montserrat dark:text-white">
                 Developed By Raynelz
               </h1>
               <ul className="flex items.centre">
                 <li>
                   <a
-                    className="bg-gradient-to-r from-purple600 to-pink600 text-white px-4 py-2 rounded-md ml-8 dark:text-white"
-                    href="https://zaharichswiftly-github-io.vercel.app/"
+                    className="bg-gradient-to-r from-purple600 to-pink600 text-white px-4 py-2 rounded-md ml-6 dark:text-white"
+                    href="./"
                   >
-                    Go back
+                    Back
                   </a>
                 </li>
               </ul>
             </nav>
             <div className="flex justify-center text-center py-10">
-            <h1 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-pink600 text-6xl font-inter">
+            <h1 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-pink600 text-6xl Inter">
               About me:
             </h1>
           </div>
