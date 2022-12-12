@@ -18,6 +18,7 @@ export default function Home() {
   const tgClick = () => {
     window.open("https://t.me/devraynelz");
   };
+
   const vkClick = () => {
     window.open("https://vk.com/raynelz");
   };
@@ -38,7 +39,7 @@ export default function Home() {
             <ul className="flex items.centre">
               <li>
                 <a
-                  className="bg-gradient-to-r from-purple600 to-pink600 text-white px-4 py-2 rounded-md ml-8 dark:text-white"
+                  className="bg-gradient-to-r from-purp to-pink600 text-white px-4 py-2 rounded-md ml-8 dark:text-white"
                   href="./resume"
                 >
                   Resume
@@ -47,10 +48,10 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-2 Inter  from-purple600 to-pink font-lg md:text-8xl font-md">
+            <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-2 Inter  from-purp to-pink font-lg md:text-8xl font-md">
               Zakhar
             </h2>
-            <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-1 Inter  from-purple600 to-pink font-lg md:text-8xl font-md">
+            <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-1 Inter  from-purp to-pink font-lg md:text-8xl font-md">
               Litvinchuk
             </h2>
             <div className="flex flex-wrap justify-center py-3 space-x-2">
@@ -68,9 +69,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600">
-            <FaTelegram onClick={tgClick} />
-            <AiFillGithub onClick={githubClick} />
-            <SlSocialVkontakte onClick={vkClick} />
+            <FaTelegram onClick={tgClick} className="dark: text-white" />
+            <AiFillGithub onClick={githubClick} className="dark: text-white" />
+            <SlSocialVkontakte onClick={vkClick} className="dark: text-white" />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-purple600 dark: from-purple rounded-full w-80 h-80 mtt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={avatar} alt="avatar" layout="fill" objectFit="cover" />
@@ -79,7 +80,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=" text-center text-3xl py-5 text-purple600 dark:text-pink">
+            <h3 className=" text-center Inter text-3xl py-5 text-purp dark:text-pink">
               My skills and experience
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
@@ -94,7 +95,7 @@ export default function Home() {
           <div className="lg: flex gap-5 justify-center">
             <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={design} alt="design" width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  text-purple600 dark: text-purple">
+              <h3 className="text-lg Inter  font-medium pt-8 pb-2  text-purp dark: text-purple">
                 Beatiful Websites
               </h3>
               <p className="py-2 text-black dark:text-white">
@@ -121,7 +122,7 @@ export default function Home() {
                 height={100}
                 className="content-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-purple600 dark: text-purple">
+              <h3 className="text-lg Inter font-medium pt-8 pb-2 text-purp dark: text-purple">
                 Code your dream projects
               </h3>
               <p className="py-2 text-black dark:text-white">
@@ -138,7 +139,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-center text-3xl py-1 text-purple600 dark:text-pink">
+            <h3 className="text-center Inter text-3xl py-1 text-purp dark:text-pink">
               Portfolio
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">

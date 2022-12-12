@@ -19,7 +19,7 @@ export default function Resume() {
               <ul className="flex items.centre">
                 <li>
                   <a
-                    className="bg-gradient-to-r from-purple600 to-pink600 text-white px-4 py-2 rounded-md ml-6 dark:text-white"
+                    className="bg-gradient-to-r from-purp to-pink600 text-white px-4 py-2 rounded-md ml-6 dark:text-white"
                     href="./"
                   >
                     Back
@@ -41,7 +41,7 @@ export default function Resume() {
             </h2>
           </div>
           <div className="flex justify-center text-center">
-          <p className="text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
+          <p className="text-md py-2 Inter leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
               I&apos;m a Web-developer with 1 year of experience. My aim is to
               bring your ideas to life with code.
             </p>
@@ -49,6 +49,14 @@ export default function Resume() {
           <div className="relative mx-auto rounded-full w-60 h-60 mtt-20 overflow-hidden md:h-30 md:w-30">
             <Image src={illust} alt="illust"/>
           </div>
+          <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl">
+            <h3 className="flex justify-center text-center text-4xl Inter dark: text-white">This section is under construction</h3>
+          </div>
+          </section>
+          <section>
+            <div>
+
+            </div>
           </section>
       </main>
     </div>
