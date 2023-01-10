@@ -14,7 +14,7 @@ module.exports = {
         purp: "#7527E2",
         comment: "#282a36",
         cyan: "#8be9fd",
-        blacky: "#213547",
+        blacky: "#3B586F",
       },
       fontFamily: {
         sans: ["Montserrat", "sans-serif"],

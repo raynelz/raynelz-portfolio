@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   const tgClick = () => {
-    window.open("https://t.me/devraynelz");
+    window.open("https://t.me/raynelz");
   };
 
   const vkClick = () => {
@@ -33,26 +33,26 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl Montserrat dark:text-white">
+            <a href="./" className="text-xl Montserrat dark:text-white">
               Developed By Raynelz
-            </h1>
+            </a>
             <ul className="flex items.centre">
               <li>
                 <a
-                  className="bg-gradient-to-r from-purp to-pink600 text-white px-4 py-2 rounded-md ml-8 dark:text-white"
+                  className="bg-gradient-to-r from-purp to-pink600 text-white px-4 py-2 rounded-md ml-8 hover:bg-gradient-to-b from-pink600 to-purp duration-1000  dark:text-white"
                   href="./resume"
                 >
-                  Resume
+                  Резюме
                 </a>
               </li>
             </ul>
           </nav>
           <div className="text-center p-10">
             <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-2 Inter  from-purp to-pink font-lg md:text-8xl font-md">
-              Zakhar
+              Захар
             </h2>
             <h2 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r py-1 Inter  from-purp to-pink font-lg md:text-8xl font-md">
-              Litvinchuk
+              Литвинчук
             </h2>
             <div className="flex flex-wrap justify-center py-3 space-x-2">
               <FaReact
@@ -64,14 +64,13 @@ export default function Home() {
               </h3>
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
-              I&apos;m a Web-developer with 1 year of experience. My aim is to
-              bring your ideas to life with code.
+              Я web-разработчик с опытом практики в 1 год. Моя цель, претворить ваши идеи в жизнь посредством кода.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600">
-            <FaTelegram onClick={tgClick} className="dark: text-white" />
-            <AiFillGithub onClick={githubClick} className="dark: text-white" />
-            <SlSocialVkontakte onClick={vkClick} className="dark: text-white" />
+            <FaTelegram onClick={tgClick} className="text-blacky hover:text-black duration-300 dark:hover:text-white" />
+            <SlSocialVkontakte onClick={vkClick} className="text-blacky hover:text-black duration-300 dark:hover:text-white" />
+            <AiFillGithub onClick={githubClick} className="text-blacky hover:text-black duration-300 dark:hover:text-white" />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-purple600 dark: from-purple rounded-full w-80 h-80 mtt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={avatar} alt="avatar" layout="fill" objectFit="cover" />
@@ -80,39 +79,38 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=" text-center Inter text-3xl py-5 text-purp dark:text-pink">
-              My skills and experience
+            <h3 className=" text-center Inter text-4xl py-5 text-purp dark:text-pink">
+              Навыки и опыт
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beggining of my journey as a frontend developer, I have
-              participated in
-              <span className=" text-pink600 dark:text-cyan"> hackatons </span>
-              and made
-              <span className=" text-pink600 dark:text-cyan"> projects </span>
-              of my own, just for fun.
+              В начале своей деятельности, как web-разработчика, я имел опыт практики в таких мероприятиях как,
+              <span className=" text-pink600 dark:text-cyan"> Хакатоны (ЛЦТ-2022, XMas-hack 2022) </span>
+              и создавал многие
+              <span className=" text-pink600 dark:text-cyan"> проекты </span>
+              для себя!
             </p>
           </div>
           <div className="lg: flex gap-5 justify-center">
             <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={design} alt="design" width={100} height={100} />
               <h3 className="text-lg Inter  font-medium pt-8 pb-2  text-purp dark: text-purple">
-                Beatiful Websites
+                Минималистичный дизайн
               </h3>
               <p className="py-2 text-black dark:text-white">
-                I design elegant and minimalistic websites to fit your needs.
+                Дизайн минималистичного сайта для ваших нужд
               </p>
               <h4 className="py-4 text-pink600 dark:text-pink">
-                Design tools I use
+                Инструменты, которые я использую:
               </h4>
-              <p className="text-black dark:text-cyan" py-1>
+              <a href="https://www.figma.com/" className="text-black hover:text-purp duration-300 dark:text-cyan py-1">
                 Figma
-              </p>
-              <p className=" text-black dark:text-cyan" py-1>
+              </a>
+              <a href="https://www.pixelmator.com/pro/" className=" text-black hover:text-purp duration-300 dark:text-cyan" >
                 Pixelmator Pro
-              </p>
-              <p className=" text-black dark:text-cyan" py-1>
-                Retouch
-              </p>
+              </a>
+              <a href="https://apps.apple.com/ua/app/touchretouch/id373311252?l=ru" className=" text-black hover:text-purp duration-300 dark:text-cyan">
+                TouchRetouch
+              </a>
             </div>
             <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
               <Image
@@ -123,32 +121,27 @@ export default function Home() {
                 className="content-center"
               />
               <h3 className="text-lg Inter font-medium pt-8 pb-2 text-purp dark: text-purple">
-                Code your dream projects
+                Рабочий код
               </h3>
               <p className="py-2 text-black dark:text-white">
-                Code elegant and minimalistic websites for your needs.
+                Напишу лэндинг-сайт для ваших нужд
               </p>
               <h4 className="py-4 text-pink600 dark:text-pink">
-                Code tools I use
+                Инструменты, которые я использую:
               </h4>
-              <p className=" text-black dark:text-cyan py-1">React</p>
-              <p className=" text-black dark:text-cyan py-1">NextJS</p>
-              <p className=" text-black dark:text-cyan py-1">Tailwind</p>
+              <a href="https://ru.reactjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300">React</a>
+              <a href="https://nextjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300">NextJS</a>
+              <a href="https://tailwindcss.com/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300">Tailwind</a>
             </div>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-center Inter text-3xl py-1 text-purp dark:text-pink">
-              Portfolio
+            <h3 className="text-center Inter text-4xl py-1 text-purp dark:text-pink">
+              Портфолио
             </h3>
-            <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beggining of my journey as a frontend developer, I have
-              participated in
-              <span className=" text-pink600 dark:text-cyan"> hackatons </span>
-              and made
-              <span className=" text-pink600 dark:text-cyan"> projects </span>
-              of my own, just for fun.
+            <p className="text-center text-xl py-2 leading-8 text-gray-800 dark:text-white">
+              Здесь представлены проекты с хакатонов
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -164,7 +157,7 @@ export default function Home() {
             <div className="basis-1/2 flex-1 border-2 border-purple600 rounded-lg dark:border-0">
               <Image
                 src={web2}
-                alt="web2"
+                alt="web3"
                 className="rounded-lg object-cover shadow-lg"
                 style={{ width: "100%", height: "100%" }}
                 layout="responsive"
