@@ -102,13 +102,13 @@ export default function Home() {
               <h4 className="py-4 text-pink600 dark:text-pink">
                 Инструменты, которые я использую:
               </h4>
-              <a href="https://www.figma.com/" className="text-black hover:text-purp duration-300 dark:text-cyan">
+              <a href="https://www.figma.com/" className="text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
                 Figma
               </a>
-              <a href="https://www.pixelmator.com/pro/" className=" text-black hover:text-purp duration-300 dark:text-cyan" >
+              <a href="https://www.pixelmator.com/pro/" className=" text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple" >
                 Pixelmator Pro
               </a>
-              <a href="https://apps.apple.com/ua/app/touchretouch/id373311252?l=ru" className=" text-black hover:text-purp duration-300 dark:text-cyan">
+              <a href="https://apps.apple.com/ua/app/touchretouch/id373311252?l=ru" className=" text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
                 TouchRetouch
               </a>
             </div>
@@ -129,9 +129,9 @@ export default function Home() {
               <h4 className="py-4 text-pink600 dark:text-pink">
                 Инструменты, которые я использую:
               </h4>
-              <a href="https://ru.reactjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300">React</a>
-              <a href="https://nextjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300">NextJS</a>
-              <a href="https://tailwindcss.com/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300">Tailwind</a>
+              <a href="https://ru.reactjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple">React</a>
+              <a href="https://nextjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple">NextJS</a>
+              <a href="https://tailwindcss.com/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple">Tailwind</a>
             </div>
           </div>
         </section>
