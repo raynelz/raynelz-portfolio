@@ -63,10 +63,10 @@ export default function Resume() {
                 <a href="mailto:litvinchuk2016@mail.ru" className="text-black hover:text-purp duration-300 dark:text-cyan py-2">
                   Email
                 </a>
-                <a href="tel:+79266526991" className=" text-black hover:text-purp duration-300 dark:text-cyan py-2">
+                <a href="tel:+79266526991" className=" text-black hover:text-purp duration-300 dark:text-cyan py-2 dark:hover:text-purple">
                   Телефон
                 </a>
-                <a href="https://t.me/raynelz" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan">
+                <a href="https://t.me/raynelz" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
                   Telegram
                 </a>
               </div>
@@ -98,13 +98,13 @@ export default function Resume() {
                 <p className="text-black dark:text-cyan py-1">
                   Английский язык (B1-B2)
                 </p>
-                <a href="https://ru.wikipedia.org/wiki/Git" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan" >
+                <a href="https://ru.wikipedia.org/wiki/Git" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple" >
                   Git
                 </a>
-                <a href="https://nextjs.org/" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan">
+                <a href="https://nextjs.org/" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
                   Nextjs
                 </a>
-                <a href="https://flutter.dev/" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan">
+                <a href="https://flutter.dev/" className="py-2 text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
                   Flutter
                 </a>
               </div>
