@@ -52,7 +52,7 @@ export default function Resume() {
               </p>
             </div>
             <div className="lg: flex gap-5 justify-center">
-              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-20 rounded-xl my-10">
+              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-5 rounded-xl my-10">
                 <Image src={phone} alt="phone" width={70} height={120} />
                 <h3 className="text-lg Inter  font-medium pt-8 pb-2  text-purp dark:text-purple">
                   Контакты:
@@ -70,7 +70,7 @@ export default function Resume() {
                   Telegram
                 </a>
               </div>
-              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
+              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-5 rounded-xl my-10">
                 <Image
                   src={backpack}
                   alt="backpack"
@@ -78,7 +78,7 @@ export default function Resume() {
                   height={150}
                   className="content-center"
                 />
-                <h3 className="text-lg Inter font-medium -pt-10 pb-2 text-purp dark:text-purple">
+                <h3 className="text-lg Inter font-medium pt-2 pb-2 text-purp dark:text-purple">
                   Образование:
                 </h3>
                 <p className="py-2 text-black dark:text-white">
@@ -90,7 +90,7 @@ export default function Resume() {
           </section>
           <section className="">
             <div className="lg: flex gap-5 justify-center">
-              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-20 rounded-xl my-10">
+              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-5 rounded-xl my-10">
                 <Image src={person} alt="person" width={80} height={100} />
                 <h3 className="text-lg Inter  font-medium pt-8 pb-2  text-purp dark:text-purple">
                   Ключевые навыки:
@@ -108,7 +108,7 @@ export default function Resume() {
                   Flutter
                 </a>
               </div>
-              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-20 rounded-xl my-10">
+              <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-5 rounded-xl my-10">
                 <Image
                   src={laptop}
                   alt="laptop"

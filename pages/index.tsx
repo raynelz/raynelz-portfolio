@@ -91,7 +91,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg: flex gap-5 justify-center">
-            <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-5 rounded-xl my-10">
               <Image src={design} alt="design" width={100} height={100} />
               <h3 className="text-lg Inter  font-medium pt-8 pb-2  text-purp dark: text-purple">
                 Минималистичный дизайн
@@ -102,7 +102,7 @@ export default function Home() {
               <h4 className="py-4 text-pink600 dark:text-pink">
                 Инструменты, которые я использую:
               </h4>
-              <a href="https://www.figma.com/" className="text-black hover:text-purp duration-300 dark:text-cyan py-1">
+              <a href="https://www.figma.com/" className="text-black hover:text-purp duration-300 dark:text-cyan">
                 Figma
               </a>
               <a href="https://www.pixelmator.com/pro/" className=" text-black hover:text-purp duration-300 dark:text-cyan" >
@@ -112,7 +112,7 @@ export default function Home() {
                 TouchRetouch
               </a>
             </div>
-            <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="bg-white dark:bg-comment grid w-center place-items-center text-center shadow-lg p-5 rounded-xl my-10">
               <Image
                 src={code}
                 alt="code"
