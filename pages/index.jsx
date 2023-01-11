@@ -64,13 +64,23 @@ export default function Home() {
               </h3>
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto">
-              Я web-разработчик с опытом практики в 1 год. Моя цель, претворить ваши идеи в жизнь посредством кода.
+              Я web-разработчик с опытом практики в 1 год. Моя цель, претворить
+              ваши идеи в жизнь посредством кода.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600">
-            <FaTelegram onClick={tgClick} className="text-blacky hover:text-black duration-300 dark:hover:text-white" />
-            <SlSocialVkontakte onClick={vkClick} className="text-blacky hover:text-black duration-300 dark:hover:text-white" />
-            <AiFillGithub onClick={githubClick} className="text-blacky hover:text-black duration-300 dark:hover:text-white" />
+            <FaTelegram
+              onClick={tgClick}
+              className="text-blacky hover:text-black duration-300 dark:hover:text-white"
+            />
+            <SlSocialVkontakte
+              onClick={vkClick}
+              className="text-blacky hover:text-black duration-300 dark:hover:text-white"
+            />
+            <AiFillGithub
+              onClick={githubClick}
+              className="text-blacky hover:text-black duration-300 dark:hover:text-white"
+            />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-purple600 dark: from-purple rounded-full w-80 h-80 mtt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={avatar} alt="avatar" layout="fill" objectFit="cover" />
@@ -83,8 +93,12 @@ export default function Home() {
               Навыки и опыт
             </h3>
             <p className="text-center text-md py-2 leading-8 text-gray-800 dark:text-white">
-              В начале своей деятельности, как web-разработчика, я имел опыт практики в таких мероприятиях как,
-              <span className=" text-pink600 dark:text-cyan"> Хакатоны (ЛЦТ-2022, XMas-hack 2022) </span>
+              В начале своей деятельности, как web-разработчика, я имел опыт
+              практики в таких мероприятиях как,
+              <span className=" text-pink600 dark:text-cyan">
+                {" "}
+                Хакатоны (ЛЦТ-2022, XMas-hack 2022){" "}
+              </span>
               и создавал многие
               <span className=" text-pink600 dark:text-cyan"> проекты </span>
               для себя!
@@ -102,13 +116,22 @@ export default function Home() {
               <h4 className="py-4 text-pink600 dark:text-pink">
                 Инструменты, которые я использую:
               </h4>
-              <a href="https://www.figma.com/" className="text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
+              <a
+                href="https://www.figma.com/"
+                className="text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple"
+              >
                 Figma
               </a>
-              <a href="https://www.pixelmator.com/pro/" className=" text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple" >
+              <a
+                href="https://www.pixelmator.com/pro/"
+                className=" text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple"
+              >
                 Pixelmator Pro
               </a>
-              <a href="https://apps.apple.com/ua/app/touchretouch/id373311252?l=ru" className=" text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple">
+              <a
+                href="https://apps.apple.com/ua/app/touchretouch/id373311252?l=ru"
+                className=" text-black hover:text-purp duration-300 dark:text-cyan dark:hover:text-purple"
+              >
                 TouchRetouch
               </a>
             </div>
@@ -129,9 +152,24 @@ export default function Home() {
               <h4 className="py-4 text-pink600 dark:text-pink">
                 Инструменты, которые я использую:
               </h4>
-              <a href="https://ru.reactjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple">React</a>
-              <a href="https://nextjs.org/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple">NextJS</a>
-              <a href="https://tailwindcss.com/" className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple">Tailwind</a>
+              <a
+                href="https://ru.reactjs.org/"
+                className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple"
+              >
+                React
+              </a>
+              <a
+                href="https://nextjs.org/"
+                className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple"
+              >
+                NextJS
+              </a>
+              <a
+                href="https://tailwindcss.com/"
+                className=" text-black dark:text-cyan py-1 hover:text-purp duration-300 dark:hover:text-purple"
+              >
+                Tailwind
+              </a>
             </div>
           </div>
         </section>
