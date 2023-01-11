@@ -48,7 +48,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r py-2 Inter  from-purp to-pink font-lg md:text-8xl font-md">
+            <h2 className="font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r py-1 Inter  from-purp to-pink font-lg md:text-8xl font-md">
               Захар
             </h2>
             <h2 className="font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r py-1 Inter  from-purp to-pink font-lg md:text-8xl font-md">
