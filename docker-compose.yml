@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  portfolio:
+    image: raaynelz/portfolio:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 80:3000
