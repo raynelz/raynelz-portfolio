@@ -7,8 +7,9 @@ WORKDIR /srv/dist
 
 # Build the app to the dist folder
 COPY --chown=server:server . .
-RUN yarn install
-RUN yarn build
+RUN yarn install && \
+    yarn cache clean && \
+    yarn build
 
 # Run the app
 ENTRYPOINT [ "yarn", "start" ]
