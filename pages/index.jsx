@@ -64,7 +64,7 @@ export default function Home() {
 							</h3>
 						</div>
 						<p className='text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto'>
-							Я web-разработчик с опытом практики в 1 год. Моя цель, претворить
+							Я web-разработчик с опытом практики в 1 год. Моя цель — претворить
 							ваши идеи в жизнь посредством кода.
 						</p>
 					</div>
@@ -93,13 +93,12 @@ export default function Home() {
 							Навыки и опыт
 						</h3>
 						<p className='text-center text-md py-2 leading-8 text-gray-800 dark:text-white'>
-							В начале своей деятельности, как web-разработчика, я имел опыт
-							практики в таких мероприятиях как,
+							Мои проекты как web-разработчика включают практику в таких мероприятиях как
 							<span className=' text-pink600 dark:text-cyan'>
 								{' '}
 								Хакатоны (ЛЦТ-2022, XMas-hack 2022){' '}
 							</span>
-							и создавал многие
+							, и создавал многие
 							<span className=' text-pink600 dark:text-cyan'> проекты </span>
 							для себя!
 						</p>
