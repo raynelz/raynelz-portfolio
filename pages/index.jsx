@@ -12,7 +12,7 @@ import web2 from '../public/web 2.png'
 export default function Home() {
 	// function which will be called when user clicks on github icon
 	const githubClick = () => {
-		window.open('https://github.com/zaharichswiftly')
+		window.open('https://github.com/raynelz')
 	}
 
 	const tgClick = () => {
@@ -60,7 +60,7 @@ export default function Home() {
 								title='React Developer'
 							/>
 							<h3 className='relative left-0 top-0 text-2xl py-2 dark:text-purple md:text-3xl'>
-								React Developer
+								Software Developer
 							</h3>
 						</div>
 						<p className='text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-lg mx-auto'>
